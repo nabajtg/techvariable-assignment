@@ -1,14 +1,16 @@
 import React from 'react'
 import './FrequentlyOrdered.css'
 import {Items} from './ItemsData'
-
+import ArrowBackIosOutlinedIcon from '@material-ui/icons/ArrowBackIosOutlined';
+import ArrowBackIosRoundedIcon from '@material-ui/icons/ArrowBackIosRounded';
 export default function FrequentlyOrdered(){
-   
+
     return(
         <div className='frequentlyBlock'>
             <div className='blockTitle'>
                 <h4>MOST FREQUENTLY ORDERED </h4>
             </div>
+            <ArrowBackIosRoundedIcon className='arrow-back'/>
             <div className='itemsBlock'>
                 
                         {Items.map((item)=>{

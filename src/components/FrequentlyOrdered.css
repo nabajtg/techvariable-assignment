@@ -1,14 +1,27 @@
 .itemsBlock{
     display: flex;
-    background-color: rgb(255, 255, 255);
-    width: 300px;
 
 }
-.item{
-    margin-right: 10px;
+
+.arrow-back{
+    background-color: white;
+    padding: 10px;
+    color:crimson;
+    position: absolute;
+    border-color: darkblue;
+    border-width: 2px;
 }
+
+.item{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
 .item-details{
     display: flex;
+    justify-content: space-around;
 }
 .image{
     width: 250px;
@@ -18,6 +31,7 @@
 .titles{
     display: flex;
     flex-direction: column;
+    padding-bottom: 10px;
 }
 .title{
     font-size: 15px;

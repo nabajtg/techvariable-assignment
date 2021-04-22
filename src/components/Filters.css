@@ -1,9 +1,10 @@
 .filterBlock{
     position: relative;
-    width: 200px;
+    width: 250px;
     background-color: #ffffff;
     border-radius: 5px;
-    float: left;   
+    float: left;  
+    margin-bottom: 20px; 
 }
 .filterHeader{
     display: flex;
@@ -12,8 +13,38 @@
     padding: 7px;
     color: #0f0f0e;
 }
-.catList{
+.filterHeader small{
+    color: darkgrey;
+    
+}
+.filterHeader strong{
+    font-size: 20px;
+}
+.formatHeader{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 7px;
+    color: #0f0f0e;
+}
+.formatHeader strong{
+    font-size: 17px;
+   
+}
+.formatList{
     padding: 5px;
     display: flex;
     align-items: center;
+}
+.catListHide{
+    display: none;
+}
+.expandLess{
+    color: darkgray;
+}
+.priceRange{
+    margin-left: 20px;
+    width: 200px;
+    color: orange;
+    
 }

@@ -1,7 +1,42 @@
-.itemsBlock{
+.menu-item {
+    padding: 0 40px;
+    margin: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+  }
+  .menu-item-wrapper.active {
+    border: 1px blue solid;
+  }
+  .menu-item.active {
+    border: 1px green solid;
+  }
+  
+  .scroll-menu-arrow {
+    padding: 20px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  .arrow-prev{
+    font-size: 30px;
+    background-color: white;
+    color: tomato;
+    border-radius: 50%;
+    padding:2px 10px;
+  }
+  .arrow-next{
+    font-size: 30px;
+    background-color: white;
+    color: tomato;
+    border-radius: 50%;
+    padding:2px 10px;
+  }
+  .itemsBlock{
     display: flex;
     overflow: hidden;
-    overflow-y: auto; 
+    overflow-y: auto;
+    width: 90%;
+
 }
 .arrowAndItems{
     display: flex;
@@ -12,38 +47,16 @@
     background-color: white;
     padding: 10px;
     color:crimson;
-    position: absolute;
+   
     border-color: darkblue;
     border-width: 2px;
-    border-radius: 100px;
-}
-.arrow-back-disabled{
-    float: left;
-    background-color: white;
-    padding: 10px;
-    color:rgb(172, 169, 169);
-    position: absolute;
-    border-color: darkblue;
-    border-width: 2px;
-    border-radius: 100px;
 }
 .arrow-forward{
+    float: right;
     background-color: white;
     padding: 10px;
     color:crimson;
-    position:absolute;
-    right: 0;
-    border-radius: 100px;
-    border-color: darkblue;
-    border-width: 2px;
-}
-.arrow-forward-disabled{
-    background-color: white;
-    padding: 10px;
-    color:rgb(109, 109, 109);
-    position:absolute;
-    right: 0;
-    border-radius: 100px;
+    
     border-color: darkblue;
     border-width: 2px;
 }
@@ -51,8 +64,11 @@
 .item{
     background-color: rgb(255, 255, 255);
     width: 300px;
-    margin-right: 10px;
     border-radius: 5px;
+    margin: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
 }
 
 .item-details{

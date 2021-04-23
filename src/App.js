@@ -1,5 +1,4 @@
 import './App.css';
-import Filters from './components/Filters';
 import FrequentlyOrdered from './components/FrequentlyOrdered';
 import FilterAndItems from './components/FilterAndItems'
 

@@ -10,7 +10,7 @@ export default function FrequentlyOrdered(){
     return(
         <div className='frequentlyBlock'>
             <div className='blockTitle'>
-                <h4>MOST FREQUENTLY ORDERED </h4>
+                <h2>MOST FREQUENTLY ORDERED </h2>
             </div>
             <div className='arrowAndItems'>
                 {currentPosition > 0?(

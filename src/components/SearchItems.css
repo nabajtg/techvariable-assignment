@@ -1,0 +1,33 @@
+.searchItemsBlock{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 20px;
+}
+.activeFilters{
+    display: flex;
+    justify-content:space-between;
+}
+
+.activeFilterButtons{
+    background-color: rgb(224, 224, 221);
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 3px;
+}
+.sortSelect{
+    margin-left: 10px;
+    padding: 7px;
+    border: none;
+    background-color: white;
+    border: 1px solid rgb(211, 202, 202);
+    border-radius: 2px;
+    font-size: large;
+}

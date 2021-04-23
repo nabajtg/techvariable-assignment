@@ -41,6 +41,7 @@ export default function Filters(){
                 <strong>FILTERS</strong>
                 <small>Reset All</small>
             </div>
+            <hr color='lightgray'/>
             <br/>
             
             <div className='formatField'>

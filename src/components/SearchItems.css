@@ -7,6 +7,12 @@
     margin-bottom: 20px;
     padding: 10px;
     margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.itemsTitle strong{
+    font-size: 20px;
+    
 }
 .activeFilters{
     display: flex;
@@ -14,13 +20,17 @@
 }
 
 .activeFilterButtons{
-    background-color: rgb(224, 224, 221);
+    background-color: rgb(255, 255, 242);
     margin-left: 10px;
     margin-right: 10px;
     border: none;
     font-size: 15px;
     padding: 7px;
     border-radius: 3px;
+    border: 1px solid rgb(211, 202, 202);
+}
+.activeFilterButtons hover{
+    cursor: pointer;
 }
 .sortSelect{
     margin-left: 10px;
@@ -30,4 +40,56 @@
     border: 1px solid rgb(211, 202, 202);
     border-radius: 2px;
     font-size: large;
+}
+.priceBlock{
+    display: flex;
+    justify-content: space-between;
+}
+.title-price{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.price{
+    color: tomato;
+    font-size: small;
+}
+.texts{
+    color: rgb(110, 107, 110);
+    font-size: small;
+}
+.ratingBlock{
+    display: flex;
+}
+.ratingLess3{
+    background-color: rgb(214, 12, 12);
+    border: none;
+    width: fit-content;
+    padding: 1px 3px;
+    margin-left: 10px;   
+}
+.ratingLess4{
+    background-color: rgb(17, 77, 245);
+    border: none;
+    width: fit-content;
+    padding: 1px 3px;   
+    margin-left: 10px;   
+}
+.rating5{
+    background-color: rgb(30, 209, 13);
+    border: none;
+    width: fit-content;
+    padding: 1px 3px;   
+    margin-left: 10px;   
+}
+.rating{
+    align-self: center;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.noOfRatings{
+    color: rgb(110, 107, 110);
+    font-size: small;
+    margin-left: 20px;
+    align-self: center;
 }
